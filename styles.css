@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(255, 206, 229);
+  background-image: url(header-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 16/9;
+}
+
+header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  width: 850px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 75px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.drawing-style-technique {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  position: relative;
+  max-width: 500px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+div p {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.drawing-style,
+.genre-selection {
+  display: block;
+  margin: 0px auto;
+  padding: 12px;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.genre-selection {
+  height: 300px;
+}
+
+.submit {
+  text-align: center;
+  margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+}
