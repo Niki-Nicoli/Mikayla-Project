@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clouds Drawing</title>
+    <link rel="stylesheet" href="styles.css" />
+        <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to Clouds Drawing</h1>
+    <header>
+<h2>Purpose</h2>
+<p>My name is Mikayla, an I like to draw. To me drawing is fun and challenging. I designed this site for myself, mom, classmates, and anyone who wants to learn how to draw.</p>
+<p>This is a site for  children and young adults that are either new to drawing or looking to build on the skills they have. Here you can choose your prefered drawing style or challenge yourself in learning a new technique. All you have to do is type in a description of the image you want to draw to be provided with step by step instrucctions on how to draw your desired image in the drawing style of your choosing.</p>
+    </header>
+ 
+ <div class="container ">
+      <h2>What do you want to draw?</h2>
+            <main>
+             <section>
+      <div><p  id="drawing-style-technique"></p>
+              </div>
+          <form id="selection">
+                <select
+          class="drawing-style"
+          id="drawing-style"
+          value="style" name="DST"
+          required
+        >
+          <option value=" " class="drawing-style" id="select-a-genre">Select a Drawing Style</option>
+          <option value="Line Drawing" id="fictionYA">
+            Line Drawing          </option>
+          <option value="Cartoonish"  id="dystopian">Cartoonish</option>
+          <option value="Manga" id="fantasy">Manga</option>
+          <option value="Graffiti"  id="sci-fi">Graffiti</option>
+          <option value="Realism"   id="sci-fi">Realism</option>
+        </select></div> </form>
+          <br/>
+                    <form id="image-generator">
+          <div class="writing-pov"><label >General Story Details:</label></div>
+          <input type="text" placeholder="ex: a girl playing jump rope in front of her house" class="genre-selection" id="general-drawing-details">
+<br>
+<div class="submit"><input id="generate-button" value="Generate" type="submit"></div>
+      
+         </form>
+           </div>
+          </section>
+
+            <br>
+      
+        </main>
+      <br />
+      <main>
+         <div><img id="results"></div>
+    
+       <p id="instructions"></p>
+      </main>
+    </div></div>
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/Niki-Nicoli" target="_blank">Nikilia Clark</a
+      >, and is
+      <a href="https://github.com/Niki-Nicoli/Short-Story-Ideas" target="_blank"
+        >open soured on GitHub</a
+      >
+      and is
+      <a href="https://short-story-ideas.netlify.app/" target="_blank"
+        >hosted on Netlify</a
+      >
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
