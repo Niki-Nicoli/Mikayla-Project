@@ -62,7 +62,8 @@ function generateImage(event) {
 function drawingInstruct(response) {
   image = document.querySelector("#results");
   instructions = document.querySelector("#instructions");
-  instructions.innerHTML = response.data.answer;
+  instructions.innerHTML = response.data.answer
+  console.log(response.data);
 }
 
 let imageGeneratorForm = document.querySelector("#image-generator");
