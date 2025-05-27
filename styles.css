@@ -78,7 +78,191 @@ div p {
   text-align: center;
   margin: 20px auto;
 }
+.background {color: white}
 
 footer {
   text-align: center;
+}
+
+
+@media (max-width: 1200px)
+  
+{
+header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  width: 750px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 75px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.drawing-style-technique {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  position: relative;
+  max-width: 500px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+
+.drawing-style,
+.genre-selection {
+  display: block;
+  margin: 0px auto;
+  padding: 12px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.genre-selection {
+  height: 250px;
+}
+
+.submit {
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+
+}
+
+
+@media (max-width: 900px)
+  
+{
+header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  width: 500px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+}
+
+.drawing-style-technique {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  position: relative;
+  max-width: 450px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+
+.drawing-style,
+.genre-selection {
+  display: block;
+  margin: 0px auto;
+  padding: 12px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.genre-selection {
+  height: 200px;
+}
+
+.submit {
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+
+}
+
+
+@media (max-width: 600px)
+  
+{
+header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  width: 450px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 25px;
+}
+
+.container {
+  max-width: 450px;
+  margin: 30px auto;
+}
+
+.drawing-style-technique {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  position: relative;
+  max-width: 300px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+
+.drawing-style,
+.genre-selection {
+  display: block;
+  margin: 0px auto;
+  padding: 12px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.genre-selection {
+  height: 200px;
+}
+
+.submit {
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+
 }
