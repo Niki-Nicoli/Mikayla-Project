@@ -79,7 +79,7 @@ div p {
   margin: 20px auto;
 }
 
-.background {color: white}
+.background {color: white; max-width: 900px;}
 
 footer {
   text-align: center;
@@ -153,7 +153,7 @@ div p {
 }
 
 .background { 
-  background-color: white; color: black; }
+  background-color: white; color: black; max-width: 750px; }
 
 footer {
   text-align: center;
@@ -231,7 +231,7 @@ div p {
 }
 
 .background { 
-  background-color: white; color: black; }
+  background-color: white; color: black; max-width: 600px;}
 
 footer {
   text-align: center;
@@ -311,8 +311,8 @@ div p {
 }
 
 .background { 
-  background-color: white; color: black; }
-  
+  background-color: white; color: black; max-width: 350px; }
+
 footer {
   text-align: center;
 }
