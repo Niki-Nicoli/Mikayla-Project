@@ -78,12 +78,12 @@ div p {
   text-align: center;
   margin: 20px auto;
 }
+
 .background {color: white}
 
 footer {
   text-align: center;
 }
-
 
 @media (max-width: 1200px)
   
@@ -93,7 +93,7 @@ header {
   margin: 0 auto;
   text-align: center;
   padding-top: 30px;
-  width: 750px;
+  width: 850px;
 }
 
 h1 {
@@ -104,7 +104,7 @@ h1 {
 }
 
 .container {
-  max-width: 700px;
+  max-width: 750px;
   margin: 60px auto;
 }
 
@@ -119,13 +119,24 @@ h1 {
   text-align: center;
 }
 
+p {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+div p {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
 
 .drawing-style,
 .genre-selection {
   display: block;
   margin: 0px auto;
   padding: 12px;
-  width: 400px;
+  width: 500px;
   border-radius: 10px;
   text-align: center;
   font-weight: 600;
@@ -141,6 +152,11 @@ h1 {
   margin: 20px auto;
 }
 
+.background {color: white}
+
+footer {
+  text-align: center;
+}
 
 
 }
@@ -154,7 +170,7 @@ header {
   margin: 0 auto;
   text-align: center;
   padding-top: 30px;
-  width: 500px;
+  width: 600px;
 }
 
 h1 {
@@ -165,7 +181,7 @@ h1 {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 600px;
   margin: 60px auto;
 }
 
@@ -174,12 +190,103 @@ h1 {
   justify-content: space-between;
   padding-bottom: 10px;
   position: relative;
-  max-width: 450px;
+  max-width: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div p {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.drawing-style,
+.genre-selection {
+  display: block;
+  margin: 0px auto;
+  padding: 12px;
+  width: 450px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.genre-selection {
+  height: 250px;
+}
+
+.submit {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.background {color: white}
+
+footer {
+  text-align: center;
+}
+
+
+
+
+}
+
+
+@media (max-width: 600px)
+  
+
+{
+header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  width: 400px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 25px;
+}
+
+.container {
+  max-width: 350px;
+  margin: 15px auto;
+}
+
+.drawing-style-technique {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  position: relative;
+  max-width: 350px;
   margin-left: 25px;
   margin-right: 25px;
   text-align: center;
 }
 
+p {
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+div p {
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
 
 .drawing-style,
 .genre-selection {
@@ -194,7 +301,7 @@ h1 {
 }
 
 .genre-selection {
-  height: 200px;
+  height: 125px;
 }
 
 .submit {
@@ -202,67 +309,8 @@ h1 {
   margin: 20px auto;
 }
 
+.background {color: white}
 
-
-}
-
-
-@media (max-width: 600px)
-  
-{
-header {
-  display: block;
-  margin: 0 auto;
+footer {
   text-align: center;
-  padding-top: 30px;
-  width: 450px;
-}
-
-h1 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-align: center;
-  text-decoration: underline;
-  padding-top: 25px;
-}
-
-.container {
-  max-width: 450px;
-  margin: 30px auto;
-}
-
-.drawing-style-technique {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
-  position: relative;
-  max-width: 300px;
-  margin-left: 25px;
-  margin-right: 25px;
-  text-align: center;
-}
-
-
-.drawing-style,
-.genre-selection {
-  display: block;
-  margin: 0px auto;
-  padding: 12px;
-  width: 300px;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 12px;
-}
-
-.genre-selection {
-  height: 200px;
-}
-
-.submit {
-  text-align: center;
-  margin: 20px auto;
-}
-
-
-
 }
