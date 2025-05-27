@@ -50,8 +50,7 @@ function generateImage(event) {
     console.log(`${output}`);
 
     let apiKey = "5452ccec034a0afbo38d92e109tf8e74";
-    let context = `You are a drawing teacher. Your goal is to generate an image from  ${input.value} using the ${choice} drawing style. Provide detailed and easy to follow step by step instructions on how to draw the image with picture examples for each step.`;
-
+    let context = `You are a drawing teacher. Your goal is to generate an image from  ${input.value} using the ${choice} drawing style. Provide detailed and easy to follow step by step instructions in basic HTML on how to draw the image described. Add a line of space between each step.`;
     let prompt = `Provide simple step by step instructions to draw ${input.value}.`;
     let apiLink = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
     console.log(`Prompt: ${prompt}`);
