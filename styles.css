@@ -152,7 +152,7 @@ div p {
   margin: 20px auto;
 }
 
-.background { width: 800px;
+.background { 
   background-color: white}
 
 footer {
@@ -230,7 +230,7 @@ div p {
   margin: 20px auto;
 }
 
-.background { width: 550px; 
+.background { 
   background-color: white}
 
 footer {
@@ -310,8 +310,8 @@ div p {
   margin: 20px auto;
 }
 
-.background { width: 300px; 
-  background-color: white}
+.background {
+  color: white}
 
 footer {
   text-align: center;
