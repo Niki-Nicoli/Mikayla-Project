@@ -152,8 +152,8 @@ div p {
   margin: 20px auto;
 }
 
-.background { width: 800px; text-align: right;
-  color: white}
+.background { width: 800px;
+  background-color: white}
 
 footer {
   text-align: center;
